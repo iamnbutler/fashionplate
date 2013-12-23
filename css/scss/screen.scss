@@ -1,0 +1,35 @@
+/* = Reset = */
+
+@import "_reset.scss";
+
+// Mixins
+
+@import "_mixins.scss";
+
+// Typography
+
+@import "_typography.scss";
+
+/* = Custom style starts here = */
+
+// General
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+// Color
+
+$yellow: rgb(255, 221, 0);
+
+// Style
+
+@import "_style.scss";
+
+// Intro Page
+
+@import "_intro.scss";

@@ -1,0 +1,19 @@
+// Set width and heigh with one call
+@mixin wh($size) {
+  width: $size;
+  height: $size;
+}
+
+// Cross browser border radius
+@mixin br($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin wrapper($width) {
+  width: $width;
+  margin: 0 auto;
+}
